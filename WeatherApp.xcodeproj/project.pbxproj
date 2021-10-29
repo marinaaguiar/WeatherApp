@@ -14,7 +14,6 @@
 		9C0FFE2126B0765F0017F597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C0FFE1F26B0765F0017F597 /* Main.storyboard */; };
 		9C0FFE2326B076630017F597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C0FFE2226B076630017F597 /* Assets.xcassets */; };
 		9C0FFE2626B076630017F597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C0FFE2426B076630017F597 /* LaunchScreen.storyboard */; };
-		9C55026226B40C420040067D /* WeatherManagerOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C55026126B40C420040067D /* WeatherManagerOld.swift */; };
 		9C55026526B466610040067D /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C55026426B466610040067D /* WeatherData.swift */; };
 		9CB4B0F026BB00C000833CF6 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB4B0EF26BB00C000833CF6 /* WeatherModel.swift */; };
 /* End PBXBuildFile section */
@@ -29,7 +28,6 @@
 		9C0FFE2226B076630017F597 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C0FFE2526B076630017F597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C0FFE2726B076630017F597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9C55026126B40C420040067D /* WeatherManagerOld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManagerOld.swift; sourceTree = "<group>"; };
 		9C55026426B466610040067D /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		9CB4B0EF26BB00C000833CF6 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,7 +80,6 @@
 				9C05720D26E7A36E005364BA /* WeatherManager.swift */,
 				9C55026426B466610040067D /* WeatherData.swift */,
 				9CB4B0EF26BB00C000833CF6 /* WeatherModel.swift */,
-				9C55026126B40C420040067D /* WeatherManagerOld.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -176,7 +173,6 @@
 				9C0FFE1E26B0765F0017F597 /* ViewController.swift in Sources */,
 				9C55026526B466610040067D /* WeatherData.swift in Sources */,
 				9C0FFE1A26B0765F0017F597 /* AppDelegate.swift in Sources */,
-				9C55026226B40C420040067D /* WeatherManagerOld.swift in Sources */,
 				9C05720E26E7A36E005364BA /* WeatherManager.swift in Sources */,
 				9CB4B0F026BB00C000833CF6 /* WeatherModel.swift in Sources */,
 				9C0FFE1C26B0765F0017F597 /* SceneDelegate.swift in Sources */,

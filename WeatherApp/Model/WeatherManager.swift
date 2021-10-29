@@ -45,6 +45,7 @@ struct WeatherManager {
             delegate?.didFailWithError(error: WeatherManagerError.failToGetUrl)
             return
         }
+        print(cityUrl)
 
         performRequest(with: cityUrl)
     }
