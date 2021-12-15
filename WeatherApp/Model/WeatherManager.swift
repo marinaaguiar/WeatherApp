@@ -29,7 +29,7 @@ struct WeatherManager {
         componentBuilder.path = "/data/2.5/weather"
 
         componentBuilder.queryItems = [
-            URLQueryItem(name: "appid", value: "08219b31e296bc3cfc1ece990074fa5f"),
+            URLQueryItem(name: "appid", value: "YOURSAPIKEY"),
             URLQueryItem(name: "units", value: "metric"),
         ] + queryItems
 
@@ -111,21 +111,17 @@ struct WeatherManager {
             
             // MARK:- Extract the values of standard date format
             
-            guard let currentTime: String = convert(from: currentTimeInMilliseconds, timeZoneInMillisseconds: timeZoneInMilliseconds) else {
-                abort()
-            }
+            guard let currentTime: String = convert(from: currentTimeInMilliseconds,
+                                                   timeZoneInMillisseconds: timeZoneInMilliseconds) else { abort() }
             
-            guard let sunriseTime: String = convert(from: sunriseInMilliseconds, timeZoneInMillisseconds: timeZoneInMilliseconds) else {
-                abort()
-            }
+            guard let sunriseTime: String = convert(from: sunriseInMilliseconds,
+                                                    timeZoneInMillisseconds: timeZoneInMilliseconds) else { abort() }
             
-            guard let sunsetTime: String = convert(from: sunsetInMilliseconds, timeZoneInMillisseconds: timeZoneInMilliseconds) else {
-                abort()
-            }
+            guard let sunsetTime: String = convert(from: sunsetInMilliseconds,
+                                                   timeZoneInMillisseconds: timeZoneInMilliseconds) else { abort() }
             
-            guard let currentDate: String = convertToCurrentDate(from: currentTimeInMilliseconds, timeZoneInMillisseconds: timeZoneInMilliseconds) else {
-                abort()
-            }
+            guard let currentDate: String = convertToCurrentDate(from: currentTimeInMilliseconds,
+                                                                    timeZoneInMillisseconds: timeZoneInMilliseconds) else { abort() }
             
             // MARK: Check
            
@@ -133,12 +129,8 @@ struct WeatherManager {
             
             let weather = WeatherModel(cityName: cityName, countryName: countryName,currentTemperature: currentTemperature, currentTime: currentTime, sunriseTime: sunriseTime, sunsetTime: sunsetTime, currentDate: currentDate, conditionId: id, conditionDescription: conditionDescription, isDay: isDay)
             
-
-            
             print(weather.conditionId)
             print(weather.conditionDescription)
-
-            
             print(isDay)
             print(cityName)
             print(currentTime)
