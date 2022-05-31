@@ -7,3 +7,7 @@ Weather App is a tool that you can look for the current weather and the time in 
 
 
 Always be prepared before leaving home! :)
+
+***
+This app was redesigned by me. I also implemented some custom features (such as the recognizer to show the light or dark background depending on the time of the city, the responsive layout, the custom backgrounds and messages displaying depending on the weather).
+This project is part of The App Brewery's Complete App Development Bootcamp, check out the full course at www.appbrewery.co
